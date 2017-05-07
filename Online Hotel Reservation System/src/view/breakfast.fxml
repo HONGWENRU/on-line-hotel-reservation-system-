@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.breakfast">
+   <children>
+      <ChoiceBox fx:id="breakfast1" layoutX="89.0" layoutY="200.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="service1" layoutX="368.0" layoutY="200.0" prefWidth="150.0" />
+      <Text layoutX="89.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="breakfast you can choose" wrappingWidth="170.240234375" />
+      <Text layoutX="368.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="service you can choose" wrappingWidth="170.240234375" />
+      <Button fx:id="next" layoutX="280.0" layoutY="310.0" mnemonicParsing="false" text="next" />
+   </children>
+</AnchorPane>

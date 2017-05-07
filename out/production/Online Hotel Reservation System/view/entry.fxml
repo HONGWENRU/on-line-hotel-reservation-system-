@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.entry">
+   <children>
+      <TextField fx:id="name" layoutX="289.0" layoutY="87.0" AnchorPane.leftAnchor="289.0" />
+      <Label layoutX="142.0" layoutY="87.0" prefHeight="23.0" prefWidth="94.0" text="Name:" />
+      <TextField fx:id="phone" layoutX="289.0" layoutY="145.0" />
+      <TextField fx:id="address" layoutX="289.0" layoutY="203.0" />
+      <TextField fx:id="email" layoutX="289.0" layoutY="259.0" />
+      <Label layoutX="142.0" layoutY="145.0" prefHeight="23.0" prefWidth="94.0" text="phone number:" />
+      <Label layoutX="142.0" layoutY="203.0" prefHeight="23.0" prefWidth="94.0" text="address:" />
+      <Label layoutX="142.0" layoutY="259.0" prefHeight="23.0" prefWidth="94.0" text="email:" />
+      <Button fx:id="submit" layoutX="208.0" layoutY="313.0" mnemonicParsing="false" text="register" />
+      <Button fx:id="update" layoutX="342.0" layoutY="313.0" mnemonicParsing="false" text="update" />
+   </children>
+</AnchorPane>

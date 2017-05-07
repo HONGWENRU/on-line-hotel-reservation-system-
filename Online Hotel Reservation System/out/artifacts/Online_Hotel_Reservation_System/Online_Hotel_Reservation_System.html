@@ -1,0 +1,40 @@
+<html><head>
+  <SCRIPT src="http://java.com/js/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'Online_Hotel_Reservation_System.jnlp'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedOnline_Hotel_Reservation_System_id() {
+        dtjava.embed(
+            {
+                id : 'Online_Hotel_Reservation_System_id',
+                url : 'Online_Hotel_Reservation_System.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '1024',
+                height : '576'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedOnline_Hotel_Reservation_System_id);
+</script>
+
+</head><body>
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder' align="center"></div>
+</body></html>

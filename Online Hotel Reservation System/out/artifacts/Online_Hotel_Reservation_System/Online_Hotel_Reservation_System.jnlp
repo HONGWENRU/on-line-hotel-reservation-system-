@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Online_Hotel_Reservation_System.jnlp">
+  <information>
+    <title>Online Hotel Reservation System</title>
+    <vendor>Group 39</vendor>
+    <description>Spring 2017 Principles of Information and Database Management(CS336) Online Hotel Reservation System Group: 39 Members: Xizheng Zhang, Songyi Gu, Hongwen Fan, Zitian Qin</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Online_Hotel_Reservation_System.jar" size="2522" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="1024" height="576" main-class="app.Main"  name="Online Hotel Reservation System" />
+  <update check="background"/>
+</jnlp>
